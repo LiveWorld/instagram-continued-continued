@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency("webmock", "~> 1.22")
   s.add_development_dependency("yard", "~> 0.9")
 
-  s.add_runtime_dependency("faraday", "~> 0.11")
+  s.add_runtime_dependency("faraday", "~> 0.12")
   s.add_runtime_dependency("faraday_middleware")
   s.add_runtime_dependency("multi_json")
   s.add_runtime_dependency("hashie", ">= 3.5.1")
@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
   s.email = ["shayne@instagr.am", "nat@natwelch.com"]
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.files = `git ls-files`.split("\n")
-  s.homepage = "https://github.com/icco/instagram-continued"
-  s.name = "instagram-continued"
+  s.homepage = "https://github.com/esloho/instagram-continued-continued"
+  s.name = "instagram-continued-continued"
   s.platform = Gem::Platform::RUBY
   s.require_paths = ["lib"]
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6")
