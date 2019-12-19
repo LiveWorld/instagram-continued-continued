@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency("multi_json")
   s.add_runtime_dependency("hashie", ">= 3.5.1")
 
-  s.authors = ["Shayne Sweeney", "Nat Welch"]
+  s.authors = ["Shayne Sweeney", "Nat Welch", "Esther Lozano"]
   s.description = "A Ruby wrapper for the Instagram REST and Search APIs"
-  s.email = ["shayne@instagr.am", "nat@natwelch.com"]
+  s.email = ["shayne@instagr.am", "nat@natwelch.com", "elozano@carto.com"]
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.files = `git ls-files`.split("\n")
   s.homepage = "https://github.com/esloho/instagram-continued-continued"
